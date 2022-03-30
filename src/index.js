@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import CarbonElementsTestApp from './carbonElement';
+import './index.scss';
+import CarbonElementsTestApp from './carbonElementTest';
 import reportWebVitals from './reportWebVitals';
+//import 'https://unpkg.com/carbon-components@10.56.0/css/carbon-components.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -3,21 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@carbon/elements": "^10.54.0",
+    "@carbon/react": "^0.16.0",
+    "@carbon/styles": "^0.16.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "carbon-components": "^10.56.0",
+    "carbon-components-react": "^7.56.0",
+    "carbon-icons": "^7.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "sass": "^1.49.9",
     "web-vitals": "^2.1.4",
-    "@carbon/react":"^0.16.0",
-    "sass": "^1.49.7",
-    "@carbon/styles": "^0.16.0",
-    "@carbon/elements":"^10.54.0"
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
-    "sass": "^1.49.7",
     "vite": "^2.8.0"
   },
   "scripts": {

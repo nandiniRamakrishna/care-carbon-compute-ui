@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import CarbonElementsTestApp from './carbonElementTest';
+import CarbonElementsTestApp from './components/carbonElementTest';
+import YearlyEmissionsCardView from "./components/yearlyEmissionsCardView";
+import YourImpact from "./components/yourImpact";
 import reportWebVitals from './reportWebVitals';
-//import 'https://unpkg.com/carbon-components@10.56.0/css/carbon-components.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CarbonElementsTestApp />
+      {/* <CarbonElementsTestApp /> */}
+      <div className='mainContainer'>
+      <YearlyEmissionsCardView />
+      <YourImpact/>
+      </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

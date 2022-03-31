@@ -17,3 +17,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+div{
+  padding: 5px;
+}
+p{
+  margin: 5px;
+}
+.mainContainer{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 5px;
+}
+.BlodText
+{
+  font-weight: bold;
+}
+.iconlabel
+{
+  display: inline-flex; 
+  margin: 10px;
+}
+.icon{
+  margin-right: 10px;
+}
+.icon-custom-tree
+{
+  fill: green;
+}
+.icon-custom-earth{
+  fill: blue;
+}
+.icon-custom-launch{
+  margin-right: 10px;
+  fill: lightblue;
+  width: 20px;
+  height: 20px;
+}
+.YearlyEmissionsContainer{
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+.yourImpactContainer
+{
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+.graytext{
+  color: gray;
+  font-size: small;
+}
+.footer_bg_gradient{
+  background: linear-gradient(to left, #42be65a8 10%, #24a148 100%);
+  width: 100%;
+}
+.footer_bg_gradient p{
+width: 80%;
+}
+.footer_bg_gradient span{
+  padding: 15px;
+}
+.YearlyEmissionsContainer div{
+  margin: 5px;
+}
+.YearlyEmissionsContainer .chartContainer{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  align-items: center;
+}
+.YearlyEmissionsContainer .chartContainer .chart{
+  width: 50%;
+}
+.YearlyEmissionsContainer .chartContainer .details{
+  width: 50%;
+}
